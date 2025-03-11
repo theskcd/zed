@@ -1,0 +1,42 @@
+# Zed: A High-Performance, Multiplayer Code Editor
+
+Zed is a modern code editor developed by Zed Industries, created by the same team behind Atom and Tree-sitter. It's designed with a focus on performance, collaboration, and developer experience.
+
+## Key Features and Characteristics
+
+1. **High-Performance Architecture**: Built in Rust with a focus on speed and responsiveness.
+
+2. **Multiplayer Collaboration**: Native support for real-time collaborative editing, allowing multiple developers to work on the same codebase simultaneously.
+
+3. **Modern Editing Experience**: 
+   - Syntax highlighting via Tree-sitter
+   - Language Server Protocol (LSP) integration for intelligent code features
+   - Terminal integration
+   - Git integration
+   - Project management
+
+4. **AI Assistance**: 
+   - Integration with various AI services (OpenAI, Anthropic, Copilot)
+   - Inline completions
+   - AI assistants for coding help
+
+5. **Extension System**: Supports extensions for languages, themes, and additional functionality.
+
+6. **Cross-Platform**: 
+   - Available for macOS and Linux
+   - Windows support in development
+
+7. **Open Source**: The codebase is open source, allowing for community contributions and transparency.
+
+## Technical Architecture
+
+Zed is built with a modular architecture consisting of numerous Rust crates, each responsible for specific functionality:
+- Core editor components (text, editor, workspace)
+- UI framework (gpui)
+- Language support (language, lsp)
+- Collaboration features (collab)
+- Terminal support
+- Extension system
+- And many more specialized components
+
+This modular design allows for maintainability and separation of concerns throughout the codebase.
